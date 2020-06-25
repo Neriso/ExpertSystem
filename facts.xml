@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Facts>
+    <Fact id="parachute jumping">
+        <Description value="parachute jumping"/>
+        <Evals>
+            <Eval id="hights">false</Eval>
+            <Eval id="willingness">true</Eval>
+            <Eval id="risk">true</Eval>
+            <Eval id="warrant">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="cyckling">
+        <Description value="cycling"/>
+        <Evals>
+            <Eval id="hights">true</Eval>
+            <Eval id="willingness">false</Eval>
+            <Eval id="risk">false</Eval>
+            <Eval id="warrant">true</Eval>
+        </Evals>
+    </Fact>
+    ...
+    <Fact id="jogging">
+        <Description value="Dacia Sandero"/>
+        <Evals>
+            <Eval id="hights">false</Eval>
+            <Eval id="willingness">false</Eval>
+            <Eval id="risk">false</Eval>
+            <Eval id="warrant">false</Eval>
+        </Evals>
+    </Fact>
+</Facts>

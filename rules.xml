@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="willingness">
+        <Question>Do you like sports(yes/no)?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="risk">
+        <Question>What is more important for you, contest or adrenaline? </Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="adrenaline"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="contest"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="warrant">
+        <Question>do you need doing sports, or it is a hobby??</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="hobby"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="i need"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    ...
+    <Rule id="hights">
+        <Question>are you afraid of haights (yes/no)?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
